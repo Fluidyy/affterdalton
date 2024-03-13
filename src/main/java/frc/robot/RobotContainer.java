@@ -185,6 +185,7 @@ public class RobotContainer
     NamedCommands.registerCommand("boxpivclose",boxpivsub.boxpivcmdAU(-13.04736328125));
     NamedCommands.registerCommand("boxpivmid",boxpivsub.boxpivcmdAU1(-11.25));
     NamedCommands.registerCommand("shoot",projectilesub.OtakeAU(-1));
+    NamedCommands.registerCommand("feeder",intakesub.UnjamFeeder(-.5));
 
     
   //  NamedCommands.registerCommand("peiceintake", new ParallelCommandGroup(intakesub.intakeCommand(0.3),intakesub.feederCommand()));
